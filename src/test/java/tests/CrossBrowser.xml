@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cross Browser Test Suite">
+
+    <test name="Cross Browser Test - Chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="tests.US_019_T.US_019_1_T"></class>
+        </classes>
+
+    </test>
+
+    <test name="Cross Browser Test - Firefox">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="tests.US_019_T.US_019_1_T"></class>
+        </classes>
+
+    </test>
+
+</suite>
